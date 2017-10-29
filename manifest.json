@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "NEU Degree Audit Class Names",
+  "description": "Adds class names to Northeastern University Degree Audit",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://prod-web.neu.edu/wasapp/DARSStudent/*"],
+      "js": ["jquery-3.2.1.min.js", "class-names.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "permissions": [
+    "https://wl11gp.neu.edu/udcprod8/*"
+  ]
+}
