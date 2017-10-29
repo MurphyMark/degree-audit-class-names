@@ -1,7 +1,7 @@
 # degree-audit-class-names
 Chrome extension to add class names to Northeastern University's degree audit
 
-Installation
+## Installation
 * Download zip file [here](https://github.com/MurphyMark/degree-audit-class-names/releases/tag/1.0).
 * Unzip the file, and put the folder somewhere safe.
 * In chrome address bar, go to chrome://extensions.
