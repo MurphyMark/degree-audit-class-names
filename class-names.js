@@ -2,6 +2,7 @@
 $('[href*="wasapp/DARSAdvisor/BannerCourseRedirectServlet"]').each(function(){
     var link = this
     var url = $(this).attr('href')
+    // I made 3 real pull requests I deserve a t-shirt goddamnit.
 
     // We don't want to change courses of the form '0000 TO 7999'
     // This is pretty dangerous, because it just assumes that the word "TO" 2 parents above means it's of that form...
